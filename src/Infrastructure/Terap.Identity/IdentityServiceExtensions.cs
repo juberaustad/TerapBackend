@@ -36,7 +36,7 @@ namespace Terap.Identity
                 {
                     o.RequireHttpsMetadata = false;
                     o.SaveToken = false;
-                    o.TokenValidationParameters = new TokenValidationParameters
+                    /*o.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuerSigningKey = true,
                         ValidateIssuer = true,
@@ -46,7 +46,7 @@ namespace Terap.Identity
                         ValidIssuer = configuration["JwtSettings:Issuer"],
                         ValidAudience = configuration["JwtSettings:Audience"],
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JwtSettings:Key"]))
-                    };
+                    };*/
 
                     o.Events = new JwtBearerEvents()
                     {

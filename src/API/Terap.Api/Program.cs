@@ -16,6 +16,7 @@ using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Terap.Api.SwaggerHelper;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -78,7 +79,8 @@ services.AddDataProtection()
 services.AddHealthcheckExtensionService(Configuration);
 
 builder.Services.AddSwaggerGen();
-
+string connString = builder.Configuration.GetConnectionString("ApplicationConnectionString");
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connString));
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

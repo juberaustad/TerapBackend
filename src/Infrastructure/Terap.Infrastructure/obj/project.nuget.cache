@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i+mF5Q8Aluw05ZakzMlzJJuUgq1TIA4rqHk0JoYOIzgorvbgvG1actqNLoOXGg+D03QKCcLWZmJy4c2bTEzh1w==",
+  "dgSpecHash": "RVtCnIEeM5zV7UPMMGOImhTOUMQ7rnftk4Bwpx6vDuOpMbBpsC9ZLEMQatlzVwNImK7ci+ZRlyq16Htc3n78iQ==",
   "success": true,
-  "projectFilePath": "C:\\MentalHealthwellBeingProject\\Terap\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Solution1\\git_Terap\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
