@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Terap.API.UnitTests
-build_property.ProjectDir = C:\Users\User\source\repos\Solution1\git_Terap\test\Terap.API.UnitTests\
+build_property.ProjectDir = C:\Users\User\source\repos\TerapBackend\123\test\Terap.API.UnitTests\
