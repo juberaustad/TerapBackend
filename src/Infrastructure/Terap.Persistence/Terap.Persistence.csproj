@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Terap.Application\Terap.Application.csproj" />
+    <ProjectReference Include="..\Terap.Identity\Terap.Identity.csproj" />
   </ItemGroup>
 
 </Project>

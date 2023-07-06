@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3pNXT7AZg+vqdbpfOFtaAwlBfoqMbvgK1GSJ80qnah2l2ARHrGhtnoCR/OfMB/xZk64hD8EH2WY4pfe3q4y++A==",
+  "dgSpecHash": "7Tn2Nx3YRkKvFTR8Xuk3XlW0Tc4e/g8dkN9sGUSCEPRmqD+4gJAl9blcLKkL9qL20553Ef9FvgBGfqIoY22HyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.Persistence.IntegrationTests\\Terap.Persistence.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.Persistence.IntegrationTests\\Terap.Persistence.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

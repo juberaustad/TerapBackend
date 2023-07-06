@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pCCd39rDGsgft/On1pg/BDTIxeXDZaYjE7xjDyYR6CH7k2+7+aVRirJGm/+QzTngOJ/G0uSnsbDoNd2VY0GXgA==",
+  "dgSpecHash": "5pog89IBA2J6nlCdruWs/DQkq+/3cX7uHlgmy0pI2WPaLg3uNkhk9WWbqFBwCsCJgi6e3PQUdC/vAj1nCsqzhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.Identity.UnitTests\\Terap.Identity.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.Identity.UnitTests\\Terap.Identity.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

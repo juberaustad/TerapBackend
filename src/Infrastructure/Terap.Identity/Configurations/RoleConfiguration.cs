@@ -13,14 +13,19 @@ namespace Terap.Identity.Configurations
             builder.HasData(
                 new IdentityRole
                 {
-                    Name = "Viewer",
-                    NormalizedName = "VIEWER"
+                    Name = "User",
+                    NormalizedName = "User"
                 },
                 new IdentityRole
                 {
                     Name = "Administrator",
                     NormalizedName = "ADMINISTRATOR"
-                }
+                },
+                 new IdentityRole
+                 {
+                     Name = "Therapist",
+                     NormalizedName = "THERAPIST"
+                 }
             );
         }
     }

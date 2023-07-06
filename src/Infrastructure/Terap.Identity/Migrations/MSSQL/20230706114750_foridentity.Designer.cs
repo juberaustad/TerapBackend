@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Terap.Identity;
 
@@ -11,9 +12,10 @@ using Terap.Identity;
 namespace Terap.Identity.Migrations
 {
     [DbContext(typeof(IdentityDbContext))]
-    partial class IdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230706114750_foridentity")]
+    partial class foridentity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,22 +53,22 @@ namespace Terap.Identity.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8de92482-27a6-419a-bb92-df16f7199df7",
-                            ConcurrencyStamp = "d32f4cc7-4fc1-4234-86e8-5f28d3302c96",
+                            Id = "dd90db2a-bafd-4559-a441-af5f1cf9c073",
+                            ConcurrencyStamp = "d65b6134-e5a1-495d-b0ae-c28a3b104373",
                             Name = "User",
                             NormalizedName = "User"
                         },
                         new
                         {
-                            Id = "dd04eb54-dfed-4026-a516-af3a588635bf",
-                            ConcurrencyStamp = "7a305146-4197-4bb5-86d0-0330b1051f5c",
+                            Id = "c9bbe108-df1d-4141-81ee-fabd2df1a994",
+                            ConcurrencyStamp = "c3eca985-2b09-4519-9610-80bfacfca32c",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         },
                         new
                         {
-                            Id = "cf8c37c4-ea9a-4e2f-94d7-8719da55fb97",
-                            ConcurrencyStamp = "182efb32-e7d4-4651-ac78-a2eab9029a81",
+                            Id = "0a7fd7ed-8db9-49df-a7d5-ae8f6108f13d",
+                            ConcurrencyStamp = "06719617-7b9b-4da6-8e8d-5444953c7f5a",
                             Name = "Therapist",
                             NormalizedName = "THERAPIST"
                         });

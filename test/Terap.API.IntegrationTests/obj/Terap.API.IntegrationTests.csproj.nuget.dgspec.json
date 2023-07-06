@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\API\\Terap.Api\\Terap.Api.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\API\\Terap.Api\\Terap.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj",
         "projectName": "Terap.Api",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\API\\Terap.Api\\Terap.Api.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\API\\Terap.Api\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\API\\Terap.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,24 +27,24 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj"
               }
             }
           }
@@ -169,18 +169,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj",
         "projectName": "Terap.Application",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -202,8 +202,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Domain\\Terap.Domain.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj"
               }
             }
           }
@@ -275,18 +275,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
         "projectName": "Terap.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -341,18 +341,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
         "projectName": "Terap.Identity",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -374,8 +374,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               }
             }
           }
@@ -445,18 +445,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
         "projectName": "Terap.Infrastructure",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -478,8 +478,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               }
             }
           }
@@ -535,18 +535,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
         "projectName": "Terap.Persistence",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -568,8 +568,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
               }
             }
           }
@@ -617,18 +620,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj": {
+    "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj",
         "projectName": "Terap.API.IntegrationTests",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.API.IntegrationTests\\Terap.API.IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\test\\Terap.API.IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\test\\Terap.API.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -650,20 +653,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\API\\Terap.Api\\Terap.Api.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\API\\Terap.Api\\Terap.Api.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TerapBackend\\123\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj"
+              "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Solution1\\git_TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj"
               }
             }
           }
@@ -735,7 +738,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
