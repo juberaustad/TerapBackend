@@ -1,5 +1,6 @@
-﻿using Terap.Domain.Common;
+﻿
 using System;
+using Terap.Domain.Common;
 
 namespace Terap.Domain.Entities
 {

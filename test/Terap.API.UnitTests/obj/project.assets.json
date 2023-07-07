@@ -15407,11 +15407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MentalHealthwellBeingProject\\Terap\\test\\Terap.API.UnitTests\\Terap.API.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Terap_Project\\Terap\\test\\Terap.API.UnitTests\\Terap.API.UnitTests.csproj",
       "projectName": "Terap.API.UnitTests",
-      "projectPath": "C:\\MentalHealthwellBeingProject\\Terap\\test\\Terap.API.UnitTests\\Terap.API.UnitTests.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Terap_Project\\Terap\\test\\Terap.API.UnitTests\\Terap.API.UnitTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\MentalHealthwellBeingProject\\Terap\\test\\Terap.API.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Terap_Project\\Terap\\test\\Terap.API.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -15433,8 +15433,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\MentalHealthwellBeingProject\\Terap\\src\\API\\Terap.Api\\Terap.Api.csproj": {
-              "projectPath": "C:\\MentalHealthwellBeingProject\\Terap\\src\\API\\Terap.Api\\Terap.Api.csproj"
+            "C:\\Users\\User\\Desktop\\Terap_Project\\Terap\\src\\API\\Terap.Api\\Terap.Api.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Terap_Project\\Terap\\src\\API\\Terap.Api\\Terap.Api.csproj"
             }
           }
         }

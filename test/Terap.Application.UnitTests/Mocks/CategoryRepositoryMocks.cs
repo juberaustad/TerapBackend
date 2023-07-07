@@ -20,7 +20,7 @@ namespace Terap.Application.UnitTests.Mocks
             {
                 new Category
                 {
-                    CategoryId = concertGuid,
+                    ID = concertGuid,
                     Name = "Concerts",
                     Events = new List<Domain.Entities.Event>
                     {
@@ -72,7 +72,7 @@ namespace Terap.Application.UnitTests.Mocks
                 },
                 new Category
                 {
-                    CategoryId = musicalGuid,
+                    ID = musicalGuid,
                     Name = "Musicals",
                     Events = new List<Domain.Entities.Event>
                     {
@@ -91,7 +91,7 @@ namespace Terap.Application.UnitTests.Mocks
                 },
                 new Category
                 {
-                    CategoryId = conferenceGuid,
+                    ID = conferenceGuid,
                     Name = "Conferences",
                     Events = new List<Domain.Entities.Event>
                     {
@@ -110,7 +110,7 @@ namespace Terap.Application.UnitTests.Mocks
                 },
                  new Category
                 {
-                    CategoryId = playGuid,
+                    ID = playGuid,
                     Name = "Plays",
                     Events = new List<Domain.Entities.Event>{}
                 }
@@ -122,7 +122,7 @@ namespace Terap.Application.UnitTests.Mocks
             mockCategoryRepository.Setup(repo => repo.GetByIdAsync(It.IsAny<Guid>())).ReturnsAsync(
                 (Guid CategoryId) =>
                 {
-                    return categories.SingleOrDefault(x => x.CategoryId == CategoryId);
+                    return categories.SingleOrDefault(x => x.ID == CategoryId);
                 });
             mockCategoryRepository.Setup(repo => repo.GetCategoriesWithEvents(It.IsAny<bool>())).ReturnsAsync((bool includePassedEvents) =>
             {
@@ -142,7 +142,7 @@ namespace Terap.Application.UnitTests.Mocks
             mockCategoryRepository.Setup(repo => repo.AddCategory(It.IsAny<Category>())).ReturnsAsync(
                 (Category category) =>
                 {
-                    category.CategoryId = Guid.NewGuid();
+                    category.ID = Guid.NewGuid();
                     categories.Add(category);
                     return category;
                 });

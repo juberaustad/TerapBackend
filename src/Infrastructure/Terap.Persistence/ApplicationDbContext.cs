@@ -26,6 +26,26 @@ namespace Terap.Persistence
         {
         }
 
+        //Palash
+
+        public DbSet<Bank> Bank { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<Country> Country { get; set; }
+        public DbSet<DocumentType> DocumentType { get; set; }
+
+        public DbSet<Duration> Duration { get; set; }
+
+        public DbSet<Feature> Feature { get; set; }
+        public DbSet<Mood> Mood { get; set; }
+        public DbSet<State> State { get; set; }
+
+        //Shubham
+        public DbSet<SubscriptionType> SubscriptionType { get; set; }
+        public DbSet<SubscriptionFeature> SubscriptionFeature { get; set; }
+        public DbSet<Therapist> Therapist { get; set; }
+        public DbSet<TherapistBankDetails> TherapistBankDetails { get; set; }
+        public DbSet<TherapistCharges> TherapistCharges { get; set; }
+        public DbSet<TherapistDocuments> TherapistDocuments { get; set; }
 
         public DbSet<Event> Events { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -46,22 +66,22 @@ namespace Terap.Persistence
 
             modelBuilder.Entity<Category>().HasData(new Category
             {
-                CategoryId = concertGuid,
+                ID = concertGuid,
                 Name = "Concerts"
             });
             modelBuilder.Entity<Category>().HasData(new Category
             {
-                CategoryId = musicalGuid,
+                ID = musicalGuid,
                 Name = "Musicals"
             });
             modelBuilder.Entity<Category>().HasData(new Category
             {
-                CategoryId = playGuid,
+                ID = playGuid,
                 Name = "Plays"
             });
             modelBuilder.Entity<Category>().HasData(new Category
             {
-                CategoryId = conferenceGuid,
+                ID = conferenceGuid,
                 Name = "Conferences"
             });
 

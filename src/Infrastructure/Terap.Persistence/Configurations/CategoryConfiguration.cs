@@ -12,7 +12,7 @@ namespace Terap.Persistence.Configurations
         {
             //Not necessary if naming conventions are followed in model
             builder
-                .HasKey(b => b.CategoryId);
+                .HasKey(b => b.ID);
 
             builder
                 .Property(b => b.CreatedBy)

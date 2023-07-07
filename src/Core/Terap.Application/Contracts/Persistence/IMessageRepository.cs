@@ -1,5 +1,6 @@
-﻿using Terap.Domain.Entities;
+﻿
 using System.Threading.Tasks;
+using Terap.Domain.Entities;
 
 namespace Terap.Application.Contracts.Persistence
 {

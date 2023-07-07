@@ -34,13 +34,13 @@ namespace Terap.Persistence.Repositories
             if (category != null)
             {
                 @event.Category = category;
-                @event.CategoryId = category.CategoryId;
+                @event.CategoryId = category.ID;
             }
             else
             {
                 await _dbContext.Set<Category>().AddAsync(@event.Category);
                 await _dbContext.SaveChangesAsync();
-                @event.CategoryId = @event.Category.CategoryId;
+                @event.CategoryId = @event.Category.ID;
             }
             await _dbContext.Set<Event>().AddAsync(@event);
             await _dbContext.SaveChangesAsync();

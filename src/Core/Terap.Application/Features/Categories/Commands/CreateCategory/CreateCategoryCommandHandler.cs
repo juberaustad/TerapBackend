@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using Terap.Application.Contracts.Persistence;
 using Terap.Application.Responses;
-using Terap.Domain.Entities;
+
 using MediatR;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Terap.Application.Exceptions;
+using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Categories.Commands.CreateCategory
 {

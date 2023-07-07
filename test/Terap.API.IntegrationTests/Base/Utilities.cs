@@ -15,22 +15,22 @@ namespace Terap.API.IntegrationTests.Base
 
             context.Categories.Add(new Category
             {
-                CategoryId = concertGuid,
+                ID = concertGuid,
                 Name = "Concerts"
             });
             context.Categories.Add(new Category
             {
-                CategoryId = musicalGuid,
+                ID = musicalGuid,
                 Name = "Musicals"
             });
             context.Categories.Add(new Category
             {
-                CategoryId = playGuid,
+                ID = playGuid,
                 Name = "Plays"
             });
             context.Categories.Add(new Category
             {
-                CategoryId = conferenceGuid,
+                ID = conferenceGuid,
                 Name = "Conferences"
             });
 
