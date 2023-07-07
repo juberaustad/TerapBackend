@@ -9,6 +9,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace Terap.Persistence
 {
@@ -27,7 +28,10 @@ namespace Terap.Persistence
         }
 
         //Palash
-
+        public DbSet<Brand> Brand { get; set; }
+        public DbSet<Document> Document { get; set; }
+        public DbSet<Image> Image { get; set; }
+        public DbSet<Video> Video { get; set; }
         public DbSet<Bank> Bank { get; set; }
         public DbSet<City> City { get; set; }
         public DbSet<Country> Country { get; set; }
