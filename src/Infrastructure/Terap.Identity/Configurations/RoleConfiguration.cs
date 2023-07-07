@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.ConstrainedExecution;
 
 namespace Terap.Identity.Configurations
 {
@@ -13,13 +14,19 @@ namespace Terap.Identity.Configurations
             builder.HasData(
                 new IdentityRole
                 {
-                    Name = "Viewer",
-                    NormalizedName = "VIEWER"
+                    Name = "User",
+                    NormalizedName = "User"
                 },
                 new IdentityRole
                 {
                     Name = "Administrator",
                     NormalizedName = "ADMINISTRATOR"
+                },
+               
+                new IdentityRole
+                {
+                    Name = "Therapist",
+                    NormalizedName = "THERAPIST"
                 }
             );
         }

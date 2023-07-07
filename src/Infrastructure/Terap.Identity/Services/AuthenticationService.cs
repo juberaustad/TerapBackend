@@ -102,7 +102,7 @@ namespace Terap.Identity.Services
 
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(user, "Viewer");
+                    await _userManager.AddToRoleAsync(user, "User");
                     return new RegistrationResponse() { UserId = user.Id };
                 }
                 else
