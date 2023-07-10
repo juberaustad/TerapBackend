@@ -11,7 +11,7 @@ namespace Terap.Domain.Entities
     public class Video
     {
         [Key]
-        public int ID { get; set; } 
+        public Guid ID { get; set; } 
 
         public string Title { get; set; }
 

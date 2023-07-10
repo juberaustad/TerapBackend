@@ -11,7 +11,7 @@ namespace Terap.Domain.Entities
     public class Product
     {
         [Key]
-        public int ID { get; set; } // Primary key
+        public Guid ID { get; set; } // Primary key
 
         public string Name { get; set; }
 

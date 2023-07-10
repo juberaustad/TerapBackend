@@ -10,7 +10,7 @@ namespace Terap.Domain.Entities
     public class Brand
     {
         [Key]
-        public int ID { get; set; }
+        public Guid ID { get; set; }
         public string Name { get; set; }
     }
 }
