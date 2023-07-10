@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+
+  "ConnectionStrings": {
+    "ApplicationConnectionString": "Server=DESKTOP-AO1B5P0\\MSSQLSERVERTESTI;Database=TerapDev.ApplicationDb;Trusted_Connection=True;TrustServerCertificate=true;",
+    "IdentityConnectionString": "Server=DESKTOP-AO1B5P0\\MSSQLSERVERTESTI;Database=TerapDev.IdentityDb;Trusted_Connection=True;TrustServerCertificate=true;",
+    "HealthCheckConnectionString": "Server=DESKTOP-AO1B5P0\\MSSQLSERVERTESTI;Database=TerapDev.HealthCheckDb;Trusted_Connection=True;TrustServerCertificate=true;",
+    "KeyValue": "MAKV2SPBNI99212"
+  }
+  
+}

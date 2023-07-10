@@ -22,6 +22,9 @@ namespace Terap.Identity.Seed
             {
                 await userManager.CreateAsync(applicationUser, "User123!@#");
                 await userManager.AddToRoleAsync(applicationUser, "Administrator");
+                await userManager.AddToRoleAsync(applicationUser, "User");
+                await userManager.AddToRoleAsync(applicationUser, "Therapist");
+
             }
         }
     }

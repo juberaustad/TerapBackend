@@ -37,6 +37,21 @@ namespace Terap.Persistence.Migrations
                     b.ToTable("Bank");
                 });
 
+            modelBuilder.Entity("Terap.Domain.Entities.Brand", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Brand");
+                });
+
             modelBuilder.Entity("Terap.Domain.Entities.Category", b =>
                 {
                     b.Property<Guid>("ID")
@@ -123,6 +138,42 @@ namespace Terap.Persistence.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Country");
+                });
+
+            modelBuilder.Entity("Terap.Domain.Entities.Document", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("PostedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("TherapistId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("TherapistId");
+
+                    b.ToTable("Document");
                 });
 
             modelBuilder.Entity("Terap.Domain.Entities.DocumentType", b =>
@@ -292,6 +343,42 @@ namespace Terap.Persistence.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Feature");
+                });
+
+            modelBuilder.Entity("Terap.Domain.Entities.Image", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("PostedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("TherapistId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("TherapistId");
+
+                    b.ToTable("Image");
                 });
 
             modelBuilder.Entity("Terap.Domain.Entities.Message", b =>
@@ -628,6 +715,39 @@ namespace Terap.Persistence.Migrations
                     b.ToTable("TherapistDocuments");
                 });
 
+            modelBuilder.Entity("Terap.Domain.Entities.Video", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("TherapistId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("TherapistId");
+
+                    b.ToTable("Video");
+                });
+
             modelBuilder.Entity("Terap.Domain.Entities.City", b =>
                 {
                     b.HasOne("Terap.Domain.Entities.State", "State")
@@ -637,6 +757,25 @@ namespace Terap.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("State");
+                });
+
+            modelBuilder.Entity("Terap.Domain.Entities.Document", b =>
+                {
+                    b.HasOne("Terap.Domain.Entities.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Terap.Domain.Entities.Therapist", "Therapist")
+                        .WithMany()
+                        .HasForeignKey("TherapistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Therapist");
                 });
 
             modelBuilder.Entity("Terap.Domain.Entities.Event", b =>
@@ -650,6 +789,25 @@ namespace Terap.Persistence.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("Terap.Domain.Entities.Image", b =>
+                {
+                    b.HasOne("Terap.Domain.Entities.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Terap.Domain.Entities.Therapist", "Therapist")
+                        .WithMany()
+                        .HasForeignKey("TherapistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Therapist");
+                });
+
             modelBuilder.Entity("Terap.Domain.Entities.State", b =>
                 {
                     b.HasOne("Terap.Domain.Entities.Country", "Country")
@@ -659,6 +817,25 @@ namespace Terap.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Country");
+                });
+
+            modelBuilder.Entity("Terap.Domain.Entities.Video", b =>
+                {
+                    b.HasOne("Terap.Domain.Entities.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Terap.Domain.Entities.Therapist", "Therapist")
+                        .WithMany()
+                        .HasForeignKey("TherapistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Therapist");
                 });
 
             modelBuilder.Entity("Terap.Domain.Entities.Category", b =>

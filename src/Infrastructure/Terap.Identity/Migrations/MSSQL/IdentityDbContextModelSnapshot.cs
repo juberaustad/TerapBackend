@@ -51,17 +51,24 @@ namespace Terap.Identity.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0a972e02-bd92-4f19-b68e-072717c524dc",
-                            ConcurrencyStamp = "8978dd6c-909b-402f-beab-846c9e03fa2a",
-                            Name = "Viewer",
-                            NormalizedName = "VIEWER"
+                            Id = "6f3f2c3a-d5c1-4bf2-aa68-5bd3fcfc13af",
+                            ConcurrencyStamp = "b7a09633-cb71-48ca-bf78-f50f41d869c0",
+                            Name = "User",
+                            NormalizedName = "User"
                         },
                         new
                         {
-                            Id = "ccacba83-5872-438b-826a-16d418032e23",
-                            ConcurrencyStamp = "908d4509-95d6-495d-b13e-c52e4f6e7e49",
+                            Id = "3ad70a32-f8e0-4d4e-b574-6b5801ed2948",
+                            ConcurrencyStamp = "7c2a5a00-9540-463a-be93-211242a378b5",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
+                        },
+                        new
+                        {
+                            Id = "02e3e85b-7f98-43ea-916c-e8070f4073e2",
+                            ConcurrencyStamp = "5d3a1593-11a5-4115-af6e-b7534f8460d7",
+                            Name = "Therapist",
+                            NormalizedName = "THERAPIST"
                         });
                 });
 
