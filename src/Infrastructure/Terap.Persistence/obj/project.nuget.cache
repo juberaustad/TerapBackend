@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gd9P8uIlkk37LZRKYV372rx2vDYMrPML5IHhBeTSjOszNBMGtpkfYzovOe/PKqkZY2VPtGGEoOLpZu736SI6qQ==",
+  "dgSpecHash": "QaTvhuFPoQ/ZGmoGKXJ6QFZ9Ga3KclmhSIlWRAB/FmiTxhgiUFARRKUfYLMF1F5uVLgU3LKbEibzIlbk+5EqLw==",
   "success": true,
-  "projectFilePath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -19,6 +19,7 @@ namespace Terap.Persistence
             services.AddScoped<IMessageRepository, MessageRepository>();
             services.AddScoped<ITherapistChargesRepository, TherapistChargesRepository>();
             services.AddScoped<ITherepistBankDetailsRepository ,TherepistBankDetailsRepository>();
+            services.AddScoped<ITherapistRepository, TherapistRepository>();
 
 
             return services;

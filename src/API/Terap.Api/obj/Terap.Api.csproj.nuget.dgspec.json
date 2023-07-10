@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Terap 2.0\\TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj": {}
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\API\\Terap.Api\\Terap.Api.csproj": {}
   },
   "projects": {
-    "C:\\Terap 2.0\\TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj": {
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\API\\Terap.Api\\Terap.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Terap 2.0\\TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\API\\Terap.Api\\Terap.Api.csproj",
         "projectName": "Terap.Api",
-        "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\API\\Terap.Api\\Terap.Api.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\API\\Terap.Api\\Terap.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Terap 2.0\\TerapBackend\\src\\API\\Terap.Api\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\API\\Terap.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,24 +22,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               },
-              "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj"
               },
-              "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj"
               },
-              "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj"
               }
             }
           }
@@ -168,25 +164,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj",
         "projectName": "Terap.Application",
-        "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,15 +186,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Domain\\Terap.Domain.csproj"
               }
             }
           }
@@ -274,25 +265,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Domain\\Terap.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
         "projectName": "Terap.Domain",
-        "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Domain\\Terap.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -300,7 +287,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -340,25 +326,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
         "projectName": "Terap.Identity",
-        "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Identity\\Terap.Identity.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Identity\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Identity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -366,15 +348,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               }
             }
           }
@@ -444,25 +425,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
         "projectName": "Terap.Infrastructure",
-        "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Infrastructure\\Terap.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -470,15 +447,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               }
             }
           }
@@ -534,25 +510,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
+    "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
         "projectName": "Terap.Persistence",
-        "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\Terap.Persistence.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Terap 2.0\\TerapBackend\\src\\Infrastructure\\Terap.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Infrastructure\\Terap.Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -560,15 +532,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
-                "projectPath": "C:\\Terap 2.0\\TerapBackend\\src\\Core\\Terap.Application\\Terap.Application.csproj"
+              "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Terap_Backend_1.1\\src\\Core\\Terap.Application\\Terap.Application.csproj"
               }
             }
           }
@@ -616,7 +587,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
