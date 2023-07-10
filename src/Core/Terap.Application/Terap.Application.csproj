@@ -23,4 +23,8 @@
     <ProjectReference Include="..\Terap.Domain\Terap.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\TherepistBankDetail\Commands\" />
+  </ItemGroup>
+
 </Project>

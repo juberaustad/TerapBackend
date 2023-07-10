@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Terap.Application.Features.Orders.GetOrdersForMonth
+namespace Terap.Application.Features.Orders.Queries.GetOrdersForMonth
 {
     public class GetOrdersForMonthQueryHandler : IRequestHandler<GetOrdersForMonthQuery, PagedResponse<IEnumerable<OrdersForMonthDto>>>
     {
@@ -22,7 +22,7 @@ namespace Terap.Application.Features.Orders.GetOrdersForMonth
         public async Task<PagedResponse<IEnumerable<OrdersForMonthDto>>> Handle(GetOrdersForMonthQuery request, CancellationToken cancellationToken)
         {
             var list = await _orderRepository.GetPagedOrdersForMonth(request.Date, request.Page, request.Size);
-            var orders =  _mapper.Map<List<OrdersForMonthDto>>(list);
+            var orders = _mapper.Map<List<OrdersForMonthDto>>(list);
 
             var count = await _orderRepository.GetTotalCountOfOrdersForMonth(request.Date);
 

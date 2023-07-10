@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
+using Terap.Application.Features.Orders.Queries.GetOrdersForMonth;
 
 namespace Terap.Application.UnitTests.Orders.Queries
 {

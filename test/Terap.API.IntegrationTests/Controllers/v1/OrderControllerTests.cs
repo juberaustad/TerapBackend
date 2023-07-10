@@ -1,11 +1,11 @@
 ﻿using Terap.API.IntegrationTests.Base;
-using Terap.Application.Features.Orders.GetOrdersForMonth;
 using Terap.Application.Responses;
 using Newtonsoft.Json;
 using Shouldly;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
+using Terap.Application.Features.Orders.Queries.GetOrdersForMonth;
 
 namespace Terap.API.IntegrationTests.Controllers.v1
 {

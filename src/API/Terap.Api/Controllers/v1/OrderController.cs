@@ -1,9 +1,10 @@
-﻿using Terap.Application.Features.Orders.GetOrdersForMonth;
+﻿using Terap.Application.Features.Orders;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
+using Terap.Application.Features.Orders.Queries.GetOrdersForMonth;
 
 namespace Terap.Api.Controllers.v1
 {

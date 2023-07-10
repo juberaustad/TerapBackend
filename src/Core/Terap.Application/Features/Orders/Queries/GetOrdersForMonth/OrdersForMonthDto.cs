@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Terap.Application.Features.Orders.GetOrdersForMonth
+namespace Terap.Application.Features.Orders.Queries.GetOrdersForMonth
 {
     public class OrdersForMonthDto
     {

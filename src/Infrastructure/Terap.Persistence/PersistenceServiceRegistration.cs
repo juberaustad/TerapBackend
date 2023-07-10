@@ -1,5 +1,4 @@
 ﻿using Terap.Application.Contracts.Persistence;
-using Terap.Infrastructure.EncryptDecrypt;
 using Terap.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +17,9 @@ namespace Terap.Persistence
             services.AddScoped<IEventRepository, EventRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IMessageRepository, MessageRepository>();
+            services.AddScoped<ITherapistChargesRepository, TherapistChargesRepository>();
+            services.AddScoped<ITherepistBankDetailsRepository ,TherepistBankDetailsRepository>();
+
 
             return services;
         }

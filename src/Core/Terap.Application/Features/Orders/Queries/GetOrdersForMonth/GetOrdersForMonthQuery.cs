@@ -3,7 +3,7 @@ using MediatR;
 using System;
 using System.Collections.Generic;
 
-namespace Terap.Application.Features.Orders.GetOrdersForMonth
+namespace Terap.Application.Features.Orders.Queries.GetOrdersForMonth
 {
     public class GetOrdersForMonthQuery : IRequest<PagedResponse<IEnumerable<OrdersForMonthDto>>>
     {

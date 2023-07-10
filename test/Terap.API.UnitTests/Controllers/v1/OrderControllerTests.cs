@@ -1,6 +1,5 @@
 ﻿using Terap.Api.Controllers.v1;
 using Terap.API.UnitTests.Mocks;
-using Terap.Application.Features.Orders.GetOrdersForMonth;
 using Terap.Application.Responses;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
+using Terap.Application.Features.Orders.Queries.GetOrdersForMonth;
 
 namespace Terap.API.UnitTests.Controllers.v1
 {

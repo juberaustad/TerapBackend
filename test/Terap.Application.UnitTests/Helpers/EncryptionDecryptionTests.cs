@@ -1,7 +1,7 @@
-﻿using Terap.Infrastructure.EncryptDecrypt;
-using Shouldly;
+﻿using Shouldly;
 using System.Threading.Tasks;
 using Xunit;
+using Terap.Application.Helper;
 
 namespace Terap.Application.UnitTests.Helpers
 {

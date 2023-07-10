@@ -9,7 +9,7 @@ using Terap.Application.Features.Events.Commands.UpdateEvent;
 using Terap.Application.Features.Events.Queries.GetEventDetail;
 using Terap.Application.Features.Events.Queries.GetEventsExport;
 using Terap.Application.Features.Events.Queries.GetEventsList;
-using Terap.Application.Features.Orders.GetOrdersForMonth;
+using Terap.Application.Features.Orders.Queries.GetOrdersForMonth;
 using Terap.Domain.Entities;
 
 namespace Terap.Application.Profiles
