@@ -1,11 +1,9 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
-using Terap.Application.Features.Events.Queries.GetEventsList;
 using Terap.Application.Features.Products.Queries.GetAllProducts;
 using Terap.Application.Features.Products.Queries.GetProductByBrandId;
 using Terap.Application.Features.Products.Queries.GetProductById;
-using Terap.Application.Features.TherepistBankDetail.Queries.GetTherepistBankDetailsById;
 using Terap.Application.Responses;
 using Terap.Domain.Entities;
 
