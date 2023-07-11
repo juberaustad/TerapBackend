@@ -19,6 +19,7 @@ namespace Terap.Domain.Entities
         public string Description { get; set; }
 
         public string Path { get; set; }
+    
 
         [ForeignKey("Therapist")]
         public Guid TherapistId { get; set; }

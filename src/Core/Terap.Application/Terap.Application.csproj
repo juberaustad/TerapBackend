@@ -23,4 +23,9 @@
     <ProjectReference Include="..\Terap.Domain\Terap.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Documents\Command\" />
+    <Folder Include="Features\Videos\Command\" />
+  </ItemGroup>
+
 </Project>
