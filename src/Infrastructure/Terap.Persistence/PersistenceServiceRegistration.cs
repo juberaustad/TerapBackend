@@ -24,6 +24,7 @@ namespace Terap.Persistence
             services.AddScoped<ITherapistRepository, TherapistRepository>();
             services.AddScoped<IDocumentRepository, DocumentRepository>();
             services.AddScoped<IVideoRepository, VideoRepository>();
+            services.AddScoped<IImageRepository, ImageRepository>();
 
             return services;
         }
