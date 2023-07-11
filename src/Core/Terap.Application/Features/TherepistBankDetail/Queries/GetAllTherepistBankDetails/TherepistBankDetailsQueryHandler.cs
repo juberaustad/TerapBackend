@@ -10,8 +10,7 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.TherepistBankDetail.Queries.GetAllTherepistBankDetails
 {
-    public class TherepistBankDetailsQueryHandler : IRequestHandler<TherepistBankDetailsQuery, Response<List<TherapistBankDetails
->>>
+    public class TherepistBankDetailsQueryHandler : IRequestHandler<TherepistBankDetailsQuery, Response<List<TherapistBankDetails>>>
     {
         private readonly ITherepistBankDetailsRepository _therepistBankDetailsRepository;
         public TherepistBankDetailsQueryHandler(ITherepistBankDetailsRepository therapistChargesRepository)
@@ -20,10 +19,10 @@ namespace Terap.Application.Features.TherepistBankDetail.Queries.GetAllTherepist
         }
         public async Task<Response<List<TherapistBankDetails>>> Handle(TherepistBankDetailsQuery request, CancellationToken cancellationToken)
         {
-            List<TherapistBankDetails> charges = (List<TherapistBankDetails>)await _therepistBankDetailsRepository.ListAllAsync();
-            if (charges != null)
+            List<TherapistBankDetails> bankDetails = (List<TherapistBankDetails>)await _therepistBankDetailsRepository.ListAllAsync();
+            if (bankDetails != null)
             {
-                return new Response<List<TherapistBankDetails>> { Succeeded = true, Data = charges, Errors = null };
+                return new Response<List<TherapistBankDetails>> { Succeeded = true, Data = bankDetails, Errors = null };
             }
             return new Response<List<TherapistBankDetails>> { Succeeded = false, Data = null, Errors = null };
         }

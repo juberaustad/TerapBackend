@@ -24,6 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\AllBank\Commands\" />
+    <Folder Include="Features\Products\Commands\" />
     <Folder Include="Features\TherepistBankDetail\Commands\" />
   </ItemGroup>
 

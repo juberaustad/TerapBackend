@@ -8,7 +8,7 @@ using Terap.Api.Middleware;
 using Terap.Application;
 using Terap.Application.Contracts;
 using Terap.Infrastructure;
-using Terap.Persistence;
+using Terap.Persistence;   
 using Terap.Identity;
 using Terap.Api.Services;
 using Terap.Api.Extensions;

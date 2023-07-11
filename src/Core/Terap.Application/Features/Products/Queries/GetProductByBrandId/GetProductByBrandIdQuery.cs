@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Terap.Application.Responses;
 using Terap.Domain.Entities;
 
-namespace Terap.Application.Features.TherepistBankDetail.Queries.GetAllTherepistBankDetails
+namespace Terap.Application.Features.Products.Queries.GetProductByBrandId
 {
-    public class TherepistBankDetailsQuery : IRequest<Response<List<TherapistBankDetails>>>
+    public class GetProductByBrandIdQuery : IRequest<Response<Product>>
     {
-
+        public Guid BrandId { get; set; }
     }
 }

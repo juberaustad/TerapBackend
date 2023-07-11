@@ -24,11 +24,11 @@ namespace Terap.Domain.Entities
         public string Specification { get; set; }
 
         [ForeignKey("Brand")]
-        public int BrandId { get; set; } 
+        public Guid BrandId { get; set; } 
         [ForeignKey("Therapist")]
-        public int TherapistId { get; set; } 
+        public Guid TherapistId { get; set; } 
         [ForeignKey("Category")]
-        public int CategoryId { get; set; } 
+        public Guid CategoryId { get; set; } 
 
         public Brand Brand { get; set; } 
 

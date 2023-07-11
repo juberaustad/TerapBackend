@@ -56,6 +56,10 @@ namespace Terap.Persistence
         public DbSet<Order> Orders { get; set; }
         public DbSet<Message> Messages { get; set; }
 
+        //Juber
+
+        public DbSet<Product> Products { get; set; }
+
         private IDbContextTransaction _transaction;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

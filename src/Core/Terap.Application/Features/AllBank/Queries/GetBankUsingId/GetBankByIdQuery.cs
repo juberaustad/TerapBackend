@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Terap.Application.Responses;
 using Terap.Domain.Entities;
 
-namespace Terap.Application.Features.TherepistBankDetail.Queries.GetAllTherepistBankDetails
+namespace Terap.Application.Features.AllBank.Queries.GetBankUsingId
 {
-    public class TherepistBankDetailsQuery : IRequest<Response<List<TherapistBankDetails>>>
+    public class GetBankByIdQuery : IRequest<Response<Bank>>
     {
-
+        public Guid ID { get; set; }
     }
 }

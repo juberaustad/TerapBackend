@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 using Terap.Application.Responses;
 using Terap.Domain.Entities;
 
-namespace Terap.Application.Features.TherepistBankDetail.Queries.GetAllTherepistBankDetails
+namespace Terap.Application.Features.AllBank.Queries.GetAllBankQueries
 {
-    public class TherepistBankDetailsQuery : IRequest<Response<List<TherapistBankDetails>>>
+    public class AllBankQuery : IRequest<Response<List<Bank>>>
     {
-
     }
 }
