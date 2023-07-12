@@ -7,11 +7,7 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Contracts.Persistence
 {
-    public interface IProductRepository : IAsyncRepository<Product>
+    public interface ISubscriptionFeatureRepository : IAsyncRepository<SubscriptionFeature>
     {
-        public Task<Product> GetProductById(Guid Id);
-        public Task<List<Product>> GetProductByBrandId(Guid BrandId);
-
-
     }
 }

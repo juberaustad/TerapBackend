@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Terap.Application.Responses;
 using Terap.Domain.Entities;
 
-namespace Terap.Application.Features.Products.Queries.GetProductByBrandId
+namespace Terap.Application.Features.SubscriptionTypes.Queries.GetSubscriptionById
 {
-    public class GetProductByBrandIdQuery : IRequest<Response<List<Product>>>
+    public class GetSubscriptionByIdQuery : IRequest<Response<SubscriptionType>>
     {
-        public Guid BrandId { get; set; }
+        public Guid ID { get; set; }
     }
 }

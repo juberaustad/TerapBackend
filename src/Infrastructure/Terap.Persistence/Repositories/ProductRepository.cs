@@ -22,9 +22,9 @@ namespace Terap.Persistence.Repositories
         {
             Product? data = await _dbContext.Products.FirstOrDefaultAsync(i => i.ID == Id);
             return data;
-        } public async Task<Product> GetProductByBrandId(Guid BrandId)
+        } public async Task<List<Product>> GetProductByBrandId(Guid BrandId)
         {
-            Product? data = await _dbContext.Products.Include(z=>z.Brand).FirstOrDefaultAsync(i => i.BrandId == BrandId);
+            List<Product> data = await _dbContext.Products.Where(z=>z.BrandId == BrandId).Include(z=>z.Brand).ToListAsync();
             return data;
         }
 

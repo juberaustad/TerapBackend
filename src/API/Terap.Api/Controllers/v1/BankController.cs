@@ -29,7 +29,7 @@ namespace Terap.Api.Controllers.v1
         }
 
         [HttpGet]
-        
+        [Route("GetBankById")]
         public async Task<ActionResult> GetBankById(Guid id)
         {
             Response<Bank> data = await _mediator.Send(new GetBankByIdQuery() { ID = id });
