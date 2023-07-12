@@ -24,10 +24,10 @@ namespace Terap.Persistence.Repositories
             return doc;
         }
 
-        public async Task<Document> GetDocumentByTherapistId(Guid Id)
+        public async Task<List<Document>> GetDocumentByTherapistId(Guid TherapistId)
         {
-            Document? doc = await _dbContext.Document.FirstOrDefaultAsync(i => i.ID == Id);
-            return doc;
+            List<Document> data = await _dbContext.Document.Where(z => z.TherapistId == TherapistId).Include(z => z.Therapist).ToListAsync();
+            return data;
         }
     }
 }

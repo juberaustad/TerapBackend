@@ -29,9 +29,9 @@ namespace Terap.Api.Controllers.v1
 
         [HttpGet]
         [Route("GetDocumentByTherapistId")]
-        public async Task<ActionResult> GetDocumentByTherapistId(Guid id)
+        public async Task<ActionResult> GetDocumentByTherapistId(Guid TherapistId)
         {
-            Response<Document> data = await _mediator.Send(new GetDocumentByTherapistIdQuery() { Id= id });
+            Response<List<Document>> data = await _mediator.Send(new GetDocumentByTherapistIdQuery() { TherapistId= TherapistId });
             return Ok(data);
         }
     }

@@ -10,6 +10,6 @@ namespace Terap.Application.Contracts.Persistence
     public interface IVideoRepository : IAsyncRepository<Video>
     {
         public Task<List<Video>> GetAllVideos();
-        public Task<Video> GetVideoByTherapistId(Guid Id);
+        public Task<List<Video>> GetVideoByTherapistId(Guid TherapistId);
     }
 }

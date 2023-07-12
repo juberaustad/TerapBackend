@@ -25,10 +25,10 @@ namespace Terap.Persistence.Repositories
             return image;
         }
 
-        public async Task<Image> GetImageByTherapistId(Guid Id)
+        public async Task<List<Image>> GetImageByTherapistId(Guid TherapistId)
         {
-            Image? image = await _dbContext.Image.FirstOrDefaultAsync(i => i.ID == Id);
-            return image;
+            List<Image> data = await _dbContext.Image.Where(z => z.TherapistId == TherapistId).Include(z => z.Therapist).ToListAsync();
+            return data;
         }
     }
 }

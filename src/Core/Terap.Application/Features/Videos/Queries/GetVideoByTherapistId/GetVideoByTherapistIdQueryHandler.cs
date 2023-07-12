@@ -11,7 +11,7 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Videos.Queries.GetVideoByTherapistId
 {
-    public class GetVideoByTherapistIdQueryHandler : IRequestHandler<GetVideoByTherapistIdQuery, Response<Video>>
+    public class GetVideoByTherapistIdQueryHandler : IRequestHandler<GetVideoByTherapistIdQuery, Response<List<Video>>>
     {
         private readonly IVideoRepository _videoRepository;
         public GetVideoByTherapistIdQueryHandler(IVideoRepository videoRepository)
@@ -19,10 +19,10 @@ namespace Terap.Application.Features.Videos.Queries.GetVideoByTherapistId
             _videoRepository = videoRepository;
         }
 
-        public async Task<Response<Video>> Handle(GetVideoByTherapistIdQuery request, CancellationToken cancellationToken)
+        public async Task<Response<List<Video>>> Handle(GetVideoByTherapistIdQuery request, CancellationToken cancellationToken)
         {
-            Video data = await _videoRepository.GetByIdAsync(request.ID);
-            return new Response<Video>(data);
+           List<Video> data = await _videoRepository.GetVideoByTherapistId(request.TherapistId);
+            return new Response<List<Video>>(data);
         }
     }
 }

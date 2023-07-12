@@ -25,10 +25,11 @@ namespace Terap.Persistence.Repositories
             return video;
         }
 
-        public async Task<Video> GetVideoByTherapistId(Guid Id)
+        public async Task<List<Video>> GetVideoByTherapistId(Guid TherapistId)
         {
-            Video? video = await _dbContext.Video.FirstOrDefaultAsync(i => i.ID == Id);
-            return video ;
+
+            List<Video> data = await _dbContext.Video.Where(z => z.TherapistId == TherapistId).Include(z => z.Therapist).ToListAsync();
+            return data;
         }
     }
 }

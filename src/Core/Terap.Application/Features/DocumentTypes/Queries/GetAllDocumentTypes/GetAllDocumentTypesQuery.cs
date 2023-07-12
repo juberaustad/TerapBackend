@@ -11,6 +11,6 @@ namespace Terap.Application.Features.DocumentTypes.Queries.GetAllDocumentTypes
 {
     public class GetAllDocumentTypeQuery : IRequest<Response<List<DocumentType>>>
     {
-        public Guid Id { get; set; }
+      
     }
 }
