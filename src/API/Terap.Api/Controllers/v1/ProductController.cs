@@ -29,6 +29,7 @@ namespace Terap.Api.Controllers.v1
         }
 
         [HttpGet]
+        [Route("GetProductById")]
         public async Task<IActionResult> GetProductById(Guid id)
         {
             Response<Product> data = await _mediator.Send(new GetProductByIdQuery() { ID = id });
@@ -39,7 +40,7 @@ namespace Terap.Api.Controllers.v1
         [Route("GetProductByBrandId")]
         public async Task<IActionResult> GetProductByBrandId(Guid brandId)
         {
-            Response<Product> data = await _mediator.Send(new GetProductByBrandIdQuery() { BrandId = brandId });
+            Response<List<Product>> data = await _mediator.Send(new GetProductByBrandIdQuery() { BrandId = brandId });
             return Ok(data);
         }
     }

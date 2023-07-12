@@ -11,7 +11,7 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Products.Queries.GetProductByBrandId
 {
-    public class GetProductByBrandIdQueryHandler : IRequestHandler<GetProductByBrandIdQuery, Response<Product>>
+    public class GetProductByBrandIdQueryHandler : IRequestHandler<GetProductByBrandIdQuery, Response<List<Product>>>
     {
         private readonly IProductRepository _productRepository;
 
@@ -19,10 +19,10 @@ namespace Terap.Application.Features.Products.Queries.GetProductByBrandId
         {
             _productRepository = productRepository;
         }
-        public async Task<Response<Product>> Handle(GetProductByBrandIdQuery request, CancellationToken cancellationToken)
+        public async Task<Response<List<Product>>> Handle(GetProductByBrandIdQuery request, CancellationToken cancellationToken)
         {
-            Product data = await _productRepository.GetByIdAsync(request.BrandId);
-            return new Response<Product>(data);
+            List<Product> data = await _productRepository.GetProductByBrandId(request.BrandId);
+            return new Response<List<Product>>(data);
         }
     }
 }

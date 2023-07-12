@@ -23,4 +23,9 @@
     <ProjectReference Include="..\Terap.Domain\Terap.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\SubscriptionFeatures\Commands\" />
+    <Folder Include="Features\SubscriptionTypes\Commands\" />
+  </ItemGroup>
+
 </Project>

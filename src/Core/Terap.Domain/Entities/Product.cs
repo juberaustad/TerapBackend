@@ -34,8 +34,11 @@ namespace Terap.Domain.Entities
 
         public Therapist Therapist { get; set; } 
 
-        public Category Category { get; set; } 
+        public Category Category { get; set; }
 
-
+        public static implicit operator List<object>(Product v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

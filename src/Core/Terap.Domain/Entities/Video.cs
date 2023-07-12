@@ -28,5 +28,7 @@ namespace Terap.Domain.Entities
         public Therapist Therapist { get; set; }
 
         public Category Category { get; set; }
+
+        public DateTime PostedDate { get; set; }
     }
 }
