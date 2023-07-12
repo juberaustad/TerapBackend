@@ -26,6 +26,11 @@
   <ItemGroup>
     <Folder Include="Features\SubscriptionFeatures\Commands\" />
     <Folder Include="Features\SubscriptionTypes\Commands\" />
+    <Folder Include="Features\Brands\Command\" />
+    <Folder Include="Features\Documents\Command\" />
+    <Folder Include="Features\DocumentTypes\Command\" />
+    <Folder Include="Features\Images\Command\" />
+    <Folder Include="Features\Videos\Command\" />
   </ItemGroup>
 
 </Project>
