@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.6" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Extensions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Terap.Domain\Terap.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+<<<<<<< HEAD
+    <Folder Include="Features\SubscriptionFeatures\Commands\" />
+    <Folder Include="Features\SubscriptionTypes\Commands\" />
+=======
+    <Folder Include="Features\Brands\Command\" />
+    <Folder Include="Features\Documents\Command\" />
+    <Folder Include="Features\DocumentTypes\Command\" />
+    <Folder Include="Features\Images\Command\" />
+    <Folder Include="Features\Videos\Command\" />
+>>>>>>> b3a3e1b7b2373cb1865e9eb3cbaa9d0f016b5efc
+  </ItemGroup>
+
+</Project>
