@@ -22,9 +22,16 @@ namespace Terap.Persistence.Repositories
         {
             Product? data = await _dbContext.Products.FirstOrDefaultAsync(i => i.ID == Id);
             return data;
-        } public async Task<List<Product>> GetProductByBrandId(Guid BrandId)
+        } 
+        public async Task<List<Product>> GetProductByBrandId(Guid BrandId)
         {
             List<Product> data = await _dbContext.Products.Where(z=>z.BrandId == BrandId).Include(z=>z.Brand).ToListAsync();
+            return data;
+        }
+
+        public async Task<List<Product>> GetProductByTherapistId(Guid TherapistId)
+        {
+            List<Product> data = await _dbContext.Products.Where(z => z.TherapistId == TherapistId).Include(z => z.Brand).ToListAsync();
             return data;
         }
 

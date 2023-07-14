@@ -9,7 +9,7 @@ namespace Terap.Domain.Entities
 {
     public class Country
     {
-        [Key] 
+        [Key]  
         public  Guid ID { get; set; }
         public string Name { get; set; }
         public List<State> States { get; set; }

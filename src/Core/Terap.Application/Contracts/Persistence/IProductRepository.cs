@@ -11,7 +11,8 @@ namespace Terap.Application.Contracts.Persistence
     {
         public Task<Product> GetProductById(Guid Id);
         public Task<List<Product>> GetProductByBrandId(Guid BrandId);
+        public Task<List<Product>> GetProductByTherapistId(Guid TherapistId);
 
-
+        
     }
 }

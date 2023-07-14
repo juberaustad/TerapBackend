@@ -28,14 +28,15 @@ namespace Terap.Api.Controllers.v1
             var respons = await _mediator.Send(new GetAllTherapistChargesQuery());
             return Ok(respons);
         }
-        [HttpPost(Name = "AddTherepistCharges")]
-        public async Task<ActionResult> Create([FromBody] AddTherepistChargesCommand addTherepistChargesCommand)
-        {
-            var id = await _mediator.Send(addTherepistChargesCommand);
-            return Ok(id);
-        }
+        //[HttpPost(Name = "AddTherepistCharges")]
+        //public async Task<ActionResult> Create([FromBody] AddTherepistChargesCommand addTherepistChargesCommand)
+        //{
+        //    var id = await _mediator.Send(addTherepistChargesCommand);
+        //    return Ok(id);
+        //}
 
         [HttpGet]
+        [Route("GetTherapistChargesById")]
         public async Task<ActionResult> GetChargesById(Guid id)
         {
             Response<TherapistCharges> data = await _mediator.Send(new GetTherepistChargesByIdQuery() { ID = id});

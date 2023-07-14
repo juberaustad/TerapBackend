@@ -29,6 +29,9 @@ namespace Terap.Persistence
             services.AddScoped<IImageRepository, ImageRepository>();
             services.AddScoped<IDocumentTypeRepository, DocumentTypeRepository>();
             services.AddScoped<IBrandRepository,BrandRepository>();
+            services.AddScoped<IFeatureRepository,FeatureRepository>();
+            services.AddScoped<IDurationRepository,DurationRepository>();
+            //services.AddScoped<ICountryRepository,CountryRepository>();
 
             return services;
         }

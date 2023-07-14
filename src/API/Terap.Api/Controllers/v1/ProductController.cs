@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Terap.Application.Features.Products.Queries.GetAllProducts;
 using Terap.Application.Features.Products.Queries.GetProductByBrandId;
 using Terap.Application.Features.Products.Queries.GetProductById;
+using Terap.Application.Features.Products.Queries.GetProductByTherapistId;
 using Terap.Application.Responses;
 using Terap.Domain.Entities;
 
@@ -41,6 +42,14 @@ namespace Terap.Api.Controllers.v1
         public async Task<IActionResult> GetProductByBrandId(Guid brandId)
         {
             Response<List<Product>> data = await _mediator.Send(new GetProductByBrandIdQuery() { BrandId = brandId });
+            return Ok(data);
+        }
+
+        [HttpGet]
+        [Route("GetProductByTherapistId")]
+        public async Task<IActionResult> GetProductByTherapistId(Guid therapistId)
+        {
+            Response<List<Product>> data = await _mediator.Send(new GetProductByTherapistIdQuery() { TherapistId = therapistId });
             return Ok(data);
         }
     }
