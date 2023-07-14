@@ -10,6 +10,6 @@ namespace Terap.Application.Contracts.Persistence
     public interface IImageRepository : IAsyncRepository<Image>
     {
         public Task<List<Image>> GetAllImages();
-        public Task<Image> GetImageByTherapistId(Guid Id);
+        public Task<List<Image>> GetImageByTherapistId(Guid TherapistId);
     }
 }

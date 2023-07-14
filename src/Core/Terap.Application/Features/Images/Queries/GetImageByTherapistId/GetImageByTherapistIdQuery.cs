@@ -9,8 +9,8 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Images.Queries.GetImageByTherapistId
 {
-    public class GetImageByTherapistIdQuery : IRequest<Response<Image>>
+    public class GetImageByTherapistIdQuery : IRequest<Response<List<Image>>>
     {
-        public Guid ID { get; set; }
+        public Guid TherapistId { get; set; }
     }
 }

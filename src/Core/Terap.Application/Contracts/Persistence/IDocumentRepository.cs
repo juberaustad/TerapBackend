@@ -12,6 +12,6 @@ namespace Terap.Application.Contracts.Persistence
     public interface IDocumentRepository : IAsyncRepository<Document>
     {
         public Task<List<Document>> GetAllDocuments();
-        public Task<Document> GetDocumentByTherapistId(Guid Id);
+        public Task<List<Document>> GetDocumentByTherapistId(Guid TherapistId);
     }
 }

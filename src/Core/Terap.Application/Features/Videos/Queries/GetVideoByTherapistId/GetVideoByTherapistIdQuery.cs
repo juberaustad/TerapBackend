@@ -9,8 +9,8 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Videos.Queries.GetVideoByTherapistId
 {
-    public class GetVideoByTherapistIdQuery : IRequest<Response<Video>>
+    public class GetVideoByTherapistIdQuery : IRequest<Response<List<Video>>>
     {
-        public Guid ID { get; set; }
+        public Guid TherapistId { get; set; }
     }
 }

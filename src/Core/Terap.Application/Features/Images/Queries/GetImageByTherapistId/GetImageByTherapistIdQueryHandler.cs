@@ -11,7 +11,7 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Images.Queries.GetImageByTherapistId
 {
-    public class GetImageByTherapistIdQueryHandler : IRequestHandler<GetImageByTherapistIdQuery, Response<Image>>
+    public class GetImageByTherapistIdQueryHandler : IRequestHandler<GetImageByTherapistIdQuery, Response<List<Image>>>
     {
         private readonly IImageRepository _imageRepository;
 
@@ -20,11 +20,11 @@ namespace Terap.Application.Features.Images.Queries.GetImageByTherapistId
             _imageRepository = imageRepository;
         }
 
-        public async Task<Response<Image>> Handle(GetImageByTherapistIdQuery request, CancellationToken cancellationToken)
+        public async Task<Response<List<Image>>> Handle(GetImageByTherapistIdQuery request, CancellationToken cancellationToken)
         {
-            Image data = await _imageRepository.GetByIdAsync(request.ID);
+             List<Image> data = await _imageRepository.GetImageByTherapistId(request.TherapistId);
           
-            return new Response<Image>(data);
+            return new Response<List<Image>>(data);
         }
     }
 }

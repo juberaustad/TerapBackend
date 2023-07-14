@@ -11,17 +11,17 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Documents.Queries.GetDocumentByTherapistId
 {
-    public class GetDocumentByTherapistIdQueryHandler : IRequestHandler<GetDocumentByTherapistIdQuery, Response<Document>>
+    public class GetDocumentByTherapistIdQueryHandler : IRequestHandler<GetDocumentByTherapistIdQuery, Response<List<Document>>>
     {
         private readonly IDocumentRepository _documentRepository;
         public GetDocumentByTherapistIdQueryHandler(IDocumentRepository documentRepository)
         {
             _documentRepository = documentRepository;
         }
-        public async Task<Response<Document>> Handle(GetDocumentByTherapistIdQuery request, CancellationToken cancellationToken)
+        public async Task<Response<List<Document>>> Handle(GetDocumentByTherapistIdQuery request, CancellationToken cancellationToken)
         {
-            Document data = await _documentRepository.GetByIdAsync(request.Id);
-            return new Response<Document>(data);
+           List<Document> data = await _documentRepository.GetDocumentByTherapistId(request.TherapistId);
+            return new Response<List<Document>>(data);
         }
     }
 }

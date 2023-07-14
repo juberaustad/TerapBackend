@@ -30,9 +30,9 @@ namespace Terap.Api.Controllers.v1
 
         [HttpGet]
         [Route("GetImageByTherapistId")]
-        public async Task<ActionResult> GetImageByTherapistId(Guid id)
+        public async Task<ActionResult> GetImageByTherapistId(Guid TherapistId)
         {
-            Response<Image> data = await _mediator.Send(new GetImageByTherapistIdQuery() { ID = id });
+            Response<List<Image>> data = await _mediator.Send(new GetImageByTherapistIdQuery() { TherapistId = TherapistId });
             return Ok(data);
         }
     }

@@ -9,8 +9,8 @@ using Terap.Domain.Entities;
 
 namespace Terap.Application.Features.Documents.Queries.GetDocumentByTherapistId
 {
-    public class GetDocumentByTherapistIdQuery : IRequest<Response<Document>>
+    public class GetDocumentByTherapistIdQuery : IRequest<Response<List<Document>>>
     {
-        public Guid Id { get; set; }    
+        public Guid TherapistId { get; set; }    
     }
 }
