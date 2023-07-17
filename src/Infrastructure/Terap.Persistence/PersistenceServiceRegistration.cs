@@ -31,6 +31,8 @@ namespace Terap.Persistence
             services.AddScoped<IBrandRepository,BrandRepository>();
             services.AddScoped<IFeatureRepository,FeatureRepository>();
             services.AddScoped<IDurationRepository,DurationRepository>();
+            services.AddScoped<ICityRepository, CityRepository>();
+            services.AddScoped<IStateRepository, StateRepository>();
             return services;
         }
     }
